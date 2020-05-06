@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{2754b643-2ecb-450c-a536-4ce60a22cdbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{90fb6609-34bb-4582-b943-46b955002520}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="plugin">
+      <UniqueIdentifier>{1f20c8aa-bb6f-4332-9fb1-4475465d893b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\xmlexporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="skp2xml.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlpluginwin.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugin\xmlplugin.cpp">
+      <Filter>plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlexportresultsdlg.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="xmloptionsdlg.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\xmltexturehelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\xmlinheritancemanager.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\tinyxml2.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\xmlfile.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\xmlgeomutils.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlpluginwin.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\xmlexporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugin\xmlplugin.h">
+      <Filter>plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="xmlexportresultsdlg.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="xmloptionsdlg.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\xmloptions.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\xmlstats.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\xmltexturehelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\xmlinheritancemanager.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\tinyxml2.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\xmlfile.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\xmlgeomutils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="skp2xml.def">
+      <Filter>Win32</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="skp2xml.rc">
+      <Filter>Win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

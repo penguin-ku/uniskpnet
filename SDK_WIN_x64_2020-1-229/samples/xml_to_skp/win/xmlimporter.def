@@ -1,0 +1,6 @@
+; XmlImporter.def : Declares the module parameters for the DLL.
+
+LIBRARY      "XmlImporter"
+
+EXPORTS
+    GetSketchUpModelImporterInterface
